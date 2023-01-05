@@ -1,0 +1,48 @@
+advancement_json: '{
+  "display": {
+    "icon": {
+      "item": "minecraft:light"
+    },
+    "title": {
+      "text": "Bitte Updaten!",
+      "color": "red",
+      "bold": true,
+      "extra": [
+        {
+          "text": "          Der Server unterstützt bald nur die ",
+          "color": "white",
+          "bold": false
+        },
+        {
+          "text": "1.19.3",
+          "color": "gold",
+          "bold": true
+        }
+      ]
+    },
+    "description": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "ab": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "any"
+              },
+              "team": "aaaaaaaaaaaaaaaaaa"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+'
+dont_annoy_for_version: 761
