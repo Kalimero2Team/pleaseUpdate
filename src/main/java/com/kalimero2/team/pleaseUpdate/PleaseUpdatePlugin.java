@@ -1,6 +1,6 @@
-package eu.byquanton.plugins.pleaseUpdate;
+package com.kalimero2.team.pleaseUpdate;
 
-import eu.byquanton.plugins.pleaseUpdate.util.VVWarning;
+import com.kalimero2.team.pleaseUpdate.util.VVWarning;
 import org.bukkit.NamespacedKey;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.plugin.java.JavaPlugin;

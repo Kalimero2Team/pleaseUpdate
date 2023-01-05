@@ -1,6 +1,6 @@
-package eu.byquanton.plugins.pleaseUpdate.util;
+package com.kalimero2.team.pleaseUpdate.util;
 
-import eu.byquanton.plugins.pleaseUpdate.PleaseUpdatePlugin;
+import com.kalimero2.team.pleaseUpdate.PleaseUpdatePlugin;
 import org.bukkit.NamespacedKey;
 import org.bukkit.Server;
 import org.bukkit.advancement.Advancement;

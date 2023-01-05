@@ -8,7 +8,7 @@ plugins {
     id("net.minecrell.plugin-yml.bukkit") version "0.5.2"
 }
 
-group = "eu.byquanton.plugins"
+group = "com.kalimero2.team"
 version = "1.0.0-SNAPSHOT"
 description = "Annoys players with a message when they join the server on an outdated version."
 
@@ -28,17 +28,11 @@ java {
 }
 
 bukkit {
-    main = "eu.byquanton.plugins.pleaseUpdate.PleaseUpdatePlugin"
+    main = "com.kalimero2.team.pleaseUpdate.PleaseUpdatePlugin"
     apiVersion = "1.19"
     load = BukkitPluginDescription.PluginLoadOrder.STARTUP
     authors = listOf("byquanton")
-    commands{
-        register("pleaseupdate"){
-            description = "Reloads the plugin"
-            permission = "pleaseupdate.reload"
-            permissionMessage = "§cYou don't have permission to do that!"
-        }
-    }
+    softDepend = listOf("ViaVersion")
 }
 
 tasks {
