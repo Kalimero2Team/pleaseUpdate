@@ -9,12 +9,12 @@ advancement_json: '{
       "bold": true,
       "extra": [
         {
-          "text": "          Der Server unterstützt bald nur die ",
+          "text": "          Der Server unterstützt bald nur noch ",
           "color": "white",
           "bold": false
         },
         {
-          "text": "1.19.3",
+          "text": "1.20.4",
           "color": "gold",
           "bold": true
         }
@@ -45,4 +45,4 @@ advancement_json: '{
   }
 }
 '
-dont_annoy_for_version: 761
+min_protocol_version: 765

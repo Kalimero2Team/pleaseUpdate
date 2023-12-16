@@ -44,7 +44,7 @@ public class PleaseUpdatePlugin extends JavaPlugin implements CommandExecutor, L
 
     @SuppressWarnings("deprecation")
     public void versionWarning(Player player) {
-        if (com.viaversion.viaversion.api.Via.getAPI().getPlayerVersion(player.getUniqueId()) != getConfig().getInt("dont_annoy_for_version")) {
+        if (com.viaversion.viaversion.api.Via.getAPI().getPlayerVersion(player.getUniqueId()) < getConfig().getInt("min_protocol_version")) {
             Server server = player.getServer();
 
             Advancement updateAdvancement = server.getAdvancement(updatePlease);

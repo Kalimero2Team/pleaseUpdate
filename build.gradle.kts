@@ -2,14 +2,12 @@ import net.minecrell.pluginyml.bukkit.BukkitPluginDescription
 
 plugins {
     `java-library`
-    `maven-publish`
-    signing
-    id("xyz.jpenilla.run-paper") version "2.0.1"
-    id("net.minecrell.plugin-yml.bukkit") version "0.5.2"
+    id("xyz.jpenilla.run-paper") version "2.2.0"
+    id("net.minecrell.plugin-yml.bukkit") version "0.6.0"
 }
 
 group = "com.kalimero2.team"
-version = "1.0.0-SNAPSHOT"
+version = "1.1.0"
 description = "Annoys players with a message when they join the server on an outdated version."
 
 repositories {
@@ -20,7 +18,7 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper", "paper-api", "1.19.3-R0.1-SNAPSHOT")
-    compileOnly("com.viaversion","viaversion-api","4.5.1")
+    compileOnly("com.viaversion","viaversion-api","4.9.2")
 }
 
 java {
