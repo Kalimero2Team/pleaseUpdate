@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper", "paper-api", "1.19.3-R0.1-SNAPSHOT")
-    compileOnly("com.viaversion","viaversion-api","4.9.3")
+    compileOnly("com.viaversion","viaversion-api","5.0.4")
 }
 
 java {
